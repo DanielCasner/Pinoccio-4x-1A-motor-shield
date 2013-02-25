@@ -1,6 +1,6 @@
-proto-hardware-reference
+Pinoccio 4x 1A motor shield
 ===========================
 
-Contained are the schematics, board layout, data sheets, and BOM for the Pinoccio proto board.
-
-The board revisions are also marked as tags in the git repository, if you'd like to see a previous version.
+Schematic and board layout for a motor driver shield for the Pinoccio <http://pinocc.io>
+that will handle up to for channels at up to 1A each with motor voltages between 2.5V
+and 15V.
