@@ -10199,7 +10199,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="27.94" y="58.42"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="M4-" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="B01@11"/>
 <wire x1="45.72" y1="50.8" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
