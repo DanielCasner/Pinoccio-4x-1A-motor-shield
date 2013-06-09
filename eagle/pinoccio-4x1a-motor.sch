@@ -6102,7 +6102,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="P+2" library="supply1" deviceset="V+" device=""/>
 <part name="P+3" library="supply1" deviceset="V+" device=""/>
 <part name="P+4" library="supply1" deviceset="V+" device=""/>
-<part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -8887,9 +8886,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="P+4" gate="1" x="83.82" y="88.9" smashed="yes" rot="R270">
 <attribute name="VALUE" x="86.36" y="88.9" size="1.778" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="182.88" y="172.72" smashed="yes" rot="R270">
-<attribute name="VALUE" x="180.34" y="172.72" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="GND3" gate="1" x="182.88" y="119.38" smashed="yes" rot="R270">
 <attribute name="VALUE" x="180.34" y="119.38" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -8962,12 +8958,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </busses>
 <nets>
 <net name="GND" class="5">
-<segment>
-<pinref part="JP-L" gate="G$1" pin="2"/>
-<label x="185.42" y="172.72" size="1.778" layer="95"/>
-<wire x1="198.12" y1="172.72" x2="185.42" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-</segment>
 <segment>
 <pinref part="JP-R" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="119.38" x2="185.42" y2="119.38" width="0.1524" layer="91"/>
@@ -9636,6 +9626,13 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="45.72" y1="48.26" x2="27.94" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="48.26" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
 <junction x="27.94" y="50.8"/>
+</segment>
+</net>
+<net name="BKPK-BUS" class="5">
+<segment>
+<pinref part="JP-L" gate="G$1" pin="2"/>
+<label x="185.42" y="172.72" size="1.778" layer="95"/>
+<wire x1="198.12" y1="172.72" x2="185.42" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
